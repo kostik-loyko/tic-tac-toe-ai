@@ -45,6 +45,7 @@ const soundBackground = new Audio();
 soundBackground.src = './assets/sounds/backround.mp3';
 soundBackground.volume = 0.25;
 const soundMems = new Audio();
+soundMems.src = mems[`${getRandomInt(88)}`];
 soundMems.volume = 0.5;
 const points = {
   pirate: 0,

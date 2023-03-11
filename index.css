@@ -1,21 +1,5 @@
 @font-face {
-  src: url("../assets/fonts/Magra-Bold.ttf");
-  font-family: "Magra";
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  src: url("../assets/fonts/Magra-Regular.ttf");
-  font-family: "Magra";
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  src: url("../assets/fonts/Milky-Honey.ttf");
+  src: url("./assets/fonts/Milky-Honey.ttf");
   font-family: "Milky";
   font-weight: 400;
   font-style: italic;
