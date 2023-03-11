@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Крестики нолики</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="result">
+      </div>
+      <div class="menu">
+        <button class="new-game">Restart</button>
+        <button class="yourself">Yourself</button>
+        <button class="you-vs-bot">You vs Bot</button>
+        <button class="bot-vs-bot">Bot vs Bot</button>
+      </div>
+      <div class="game-container">
+        <ul class="game">
+          <li class="field 0">
+            <img class="palm" src="./assets/palm.png" alt="">
+            <img class="pirate" src="./assets/pirate.png" alt="pirate">
+            <img class="box" src="./assets/box.png" alt="pirate">
+          </li>
+          <li class="field 1">
+            <img class="palm" src="./assets/palm.png" alt="">
+            <img class="pirate" src="./assets/pirate.png" alt="pirate">
+            <img class="box" src="./assets/box.png" alt="pirate">
+          </li>
+          <li class="field 2">
+            <img class="palm" src="./assets/palm.png" alt="">
+            <img class="pirate" src="./assets/pirate.png" alt="pirate">
+            <img class="box" src="./assets/box.png" alt="pirate">
+          </li>
+          <li class="field 3">
+            <img class="palm" src="./assets/palm.png" alt="">
+            <img class="pirate" src="./assets/pirate.png" alt="pirate">
+            <img class="box" src="./assets/box.png" alt="pirate">
+          </li>
+          <li class="field 4">
+            <img class="palm" src="./assets/palm.png" alt="">
+            <img class="pirate" src="./assets/pirate.png" alt="pirate">
+            <img class="box" src="./assets/box.png" alt="pirate">
+          </li>
+          <li class="field 5"> <img class="palm" src="./assets/palm.png" alt="">
+            <img class="pirate" src="./assets/pirate.png" alt="pirate">
+            <img class="box" src="./assets/box.png" alt="pirate">
+          </li>
+          <li class="field 6">
+            <img class="palm" src="./assets/palm.png" alt="">
+            <img class="pirate" src="./assets/pirate.png" alt="pirate">
+            <img class="box" src="./assets/box.png" alt="pirate">
+          </li>
+          <li class="field 7">
+            <img class="palm" src="./assets/palm.png" alt="">
+            <img class="pirate" src="./assets/pirate.png" alt="pirate">
+            <img class="box" src="./assets/box.png" alt="pirate">
+          </li>
+          <li class="field 8">
+            <img class="palm" src="./assets/palm.png" alt="">
+            <img class="pirate" src="./assets/pirate.png" alt="pirate">
+            <img class="box" src="./assets/box.png" alt="pirate">
+          </li>
+        </ul>
+        <div class="score">
+          <ul class="score-list">
+            <li class="score-item">
+              <img src="./assets/pirate.png" alt="pirate" class="score-img">
+              <strong class="score-pirate">0</strong>
+            </li>
+            <li class="score-item">
+              <img src="./assets/box.png" alt="box" class="score-img">
+              <strong class="score-box">0</strong>
+            </li>
+            <li class="score-item">
+              <img src="./assets/friend.png" alt="box" class="score-img">
+              <strong class="score-friend">0</strong>
+            </li>
+          </ul>
+          <div class="container-btn">
+            <div class="nota-container">
+              <img class="nota" src="./assets/nota.png" alt="nota">
+            </div>
+            <button class="sound-on">on</button>
+            <button class="sound-off">off</button>
+            <button class="reset">Reset</button>
+          </div>
+          <div class="sprite-container">
+            <img class="bird" src="./assets/sprite.png" alt="bird">
+          </div>
+        </div>
+      </div>
+      <div class="wether-container">
+        <input class="search highlighting" type="text" placeholder="Write city + enter">
+        <h2 id='temp' class="highlighting">Minsk: 3'C,</h2>
+        <h2 id='state' class="highlighting">clear sky</h2>
+      </div>
+    </div>
+    <script type='module' src="index.js"></script>
+  </div>
+
+</body>
+
+</html>
