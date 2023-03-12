@@ -247,7 +247,7 @@ function fly() {
   if (direction) {
     rightMove += 0.25;
     birdContainer.style.left = `${rightMove}%`;
-    if (rightMove >= 80) {
+    if (rightMove >= 60) {
       birdContainer.style.transform = 'scale(-1, 1)';
       direction = false;
     }

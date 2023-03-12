@@ -17,7 +17,7 @@ const weather = () => {
         .then(data => {
           temp.textContent = `${data.name}: ${Math.floor(data.main.temp - 273)}'C,`;
           state.textContent = `${data.weather[0].description}`;
-          console.log(data);
+          search.value = '';
         })
         .catch(() => {
           temp.textContent = `city incorrect`;
